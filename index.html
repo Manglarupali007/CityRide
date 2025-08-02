@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CityRide - Premium Taxi Service</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+    <!-- Navigation -->
+    <nav id="mainNav">
+        <a href="#" class="logo"><i class="fas fa-taxi"></i> CityRide</a>
+        <div class="menu-toggle" id="mobileMenu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#features">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#booking">Book Now</a></li>
+            <li><a href="#contact" class="cta-button">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Premium Taxi Service in Your City</h1>
+            <p>Safe, reliable, and comfortable rides at competitive prices. Available 24/7 for all your transportation needs.</p>
+            <div class="hero-buttons">
+                <a href="#booking" class="btn btn-primary">Book a Ride</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <div class="booking-form" id="booking">
+        <h2 class="form-title">Book Your Ride Now</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="pickup">Pickup Location</label>
+                    <input type="text" id="pickup" placeholder="Enter pickup address">
+                </div>
+                <div class="form-group">
+                    <label for="destination">Destination</label>
+                    <input type="text" id="destination" placeholder="Enter destination">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="date">Pickup Date</label>
+                    <input type="date" id="date">
+                </div>
+                <div class="form-group">
+                    <label for="time">Pickup Time</label>
+                    <input type="time" id="time">
+                </div>
+                <div class="form-group">
+                    <label for="passengers">Passengers</label>
+                    <select id="passengers">
+                        <option value="1">1 Passenger</option>
+                        <option value="2">2 Passengers</option>
+                        <option value="3">3 Passengers</option>
+                        <option value="4">4 Passengers</option>
+                        <option value="5">5+ Passengers</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-submit">
+                <button type="submit">Find Taxi Now</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="section-title">
+            <h2>Why Choose CityRide</h2>
+            <p>Experience premium taxi service with our exceptional features</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-car"></i>
+                </div>
+                <h3>Luxury Vehicles</h3>
+                <p>Travel in comfort with our fleet of premium, well-maintained vehicles equipped with modern amenities.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h3>24/7 Availability</h3>
+                <p>We're available round the clock, 365 days a year to serve your transportation needs.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-dollar-sign"></i>
+                </div>
+                <h3>Fixed Prices</h3>
+                <p>No surge pricing. Know your fare upfront with our transparent pricing policy.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Safe Rides</h3>
+                <p>All drivers are verified professionals with extensive background checks for your safety.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <h3>Live Tracking</h3>
+                <p>Track your ride in real-time and share your journey details with loved ones.</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-headset"></i>
+                </div>
+                <h3>24/7 Support</h3>
+                <p>Our customer support team is always ready to assist you with any queries or concerns.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-title">
+            <h2>What Our Customers Say</h2>
+            <p>Don't just take our word for it - hear from our satisfied customers</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-info">
+                        <h4>Anonymous</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <p>"I use CityRide every day for my commute. The drivers are always punctual, the cars are clean, and the app makes booking so convenient. Highly recommended!"</p>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                    <div class="testimonial-info">
+                        <h4>Anonymous</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <p>"The best taxi service in town! Their fixed pricing saves me from unexpected charges, and the drivers are always courteous and professional."</p>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-header">
+                   
+                    <div class="testimonial-info">
+                        <h4>Anonymous</h4>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-content">
+                    <p>"As a frequent traveler, I rely on CityRide for airport transfers. They've never let me down, even for early morning flights. The app tracking gives me peace of mind."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>CityRide Taxi</h3>
+                <p>Providing premium taxi services with safety, comfort, and reliability as our top priorities. Serving the community since 2013.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#booking">Book a Ride</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Services</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Airport Transfer</a></li>
+                    <li><a href="#">City Rides</a></li>
+                    <li><a href="#">Corporate Travel</a></li>
+                    <li><a href="#">Long Distance</a></li>
+                    <li><a href="#">Event Transportation</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Us</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-map-marker-alt"></i> Punjab, India</li>
+                    <li><i class="fas fa-phone"></i> +91 730XX - XXX00</li>
+                    <li><i class="fas fa-envelope"></i> info@cityride.com</li>
+                    <li><i class="fas fa-clock"></i> 24/7 Service</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 CityRide Taxi Service. All rights reserved.</p>
+        </div>
+    </footer>
+  <script src="script.js"></script>
+    </body>
+</html>
